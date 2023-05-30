@@ -71,3 +71,7 @@ p {
 .nav-item.active {
   background-color: var(--primary-bc-color);
 }
+
+.main-content {
+  background-color: var(--primary-bc-color);
+}
