@@ -42,3 +42,10 @@ p {
   border-radius: 50%;
   border: 2px solid var(--secundary-font-color);
 }
+
+.page-logo {
+  font-size: 12px;
+  word-wrap: break-word;
+  text-align: center;
+  margin: 0 !important;
+}
