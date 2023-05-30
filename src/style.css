@@ -52,3 +52,9 @@ p {
   text-align: center;
   margin: 0 !important;
 }
+
+.footer {
+  background-color: var(--secundary-bc-color);
+  width: 100%;
+  padding: 1rem 1rem 1rem 3vw;
+}
