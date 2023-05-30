@@ -1,0 +1,54 @@
+:root {
+  --primary-bc-color: #220819;
+  --secundary-bc-color: #0c000a;
+  --secundary-font-color: #fff;
+  --modal-bc-color: #0f000cfb;
+  --modal-bc-info: #fff;
+  --primary-show-bc-color: #f8d5ee;
+  --primary-show-font-color: #000c06;
+  --button-bc-color: #1b0117;
+  --button-font-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: var(--primary-bc-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.secondary-fc-color {
+  color: var(--secundary-font-color);
+}
+
+.page-header {
+  top: 0;
+  left: 0;
+  background-color: var(--primary-bc-color);
+  z-index: 1;
+  padding: 1rem 1rem 1rem 3vw;
+}
+
+.page-logo-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--secundary-font-color);
+}
+
+.page-logo {
+  font-size: 12px;
+  word-wrap: break-word;
+  text-align: center;
+  margin: 0 !important;
+}
