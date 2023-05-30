@@ -26,3 +26,13 @@ h3,
 p {
   margin: 0;
 }
+.secondary-fc-color {
+  color: var(--secundary-font-color);
+}
+.page-header {
+  top: 0;
+  left: 0;
+  background-color: var(--primary-bc-color);
+  z-index: 1;
+  padding: 1rem 1rem 1rem 3vw;
+}
