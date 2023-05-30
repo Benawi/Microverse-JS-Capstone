@@ -9,3 +9,20 @@
   --button-bc-color: #1b0117;
   --button-font-color: #fff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: var(--primary-bc-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
