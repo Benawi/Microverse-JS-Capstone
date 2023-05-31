@@ -31,5 +31,13 @@ describe('commentsCounter', () => {
     expect(result).toBe(0);
   });
 
-  
+  it('should return 0 when post.comments is undefined', () => {
+    const post = {
+      title: 'test Post',
+      content: 'This is my test',
+      comments: undefined,
+    };
+    const result = commentsCounter(post);
+    expect(result).toBe(0);
+  });
 });
