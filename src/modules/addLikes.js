@@ -1,24 +1,33 @@
+const url =
+  'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
 export const updateLikes = async (key, likes) => {
-  const url = `http://localhost:3000/posts/${key}`;
-  const response = await fetch(url);
-  const data = await response.json();
+  const res = await fetch(url);
+  const data = await res.json();
+
   data.filter((item) => {
-    if (item.id === '${key}') {
-      likes.innerHTML = '${item.likes} likes';
+    if (item.item_id === `${key}`) {
+      likes.innerHTML = `${item.likes} likes`;
     }
     return '';
   });
 };
 
-const addLikes = async (key, likes) => {
-  const url = `http://localhost:3000/posts/${key}`;
+export const addLike = async (key, likes) => {
   await fetch(url, {
     method: 'POST',
     body: JSON.stringify({
-      item_id: '${key}',
+      item_id: `${key}`,
     }),
     headers: {
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json; charset=UTF-8',
     },
   });
+
+  updateLikes(key, likes);
+};
+
+export const fetchLikes = async () => {
+  const res = await fetch(url);
+  const data = await res.json();
+  return data;
 };
