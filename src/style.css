@@ -75,3 +75,122 @@ p {
 .main-content {
   background-color: var(--primary-bc-color);
 }
+
+.pop,
+.reserv-pop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(7px);
+  padding: 3%;
+}
+
+.popup {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 1.25em 1.25em 1.25em;
+  width: 70%;
+  max-height: 95%;
+  overflow-y: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup::-webkit-scrollbar {
+  display: none;
+}
+
+.img-container {
+  overflow: hidden;
+  max-height: 45vh;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.popup-content {
+  background-color: black;
+  padding: 10px;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  text-align: center;
+  gap: 10px;
+}
+
+.h3class {
+  text-align: center;
+}
+
+.addh3comment {
+  text-align: center;
+}
+
+.comment-input {
+  color: black;
+  width: 50%;
+  height: 5vh;
+}
+
+.name-input {
+  color: black;
+  width: 50%;
+  height: 15vh;
+}
+
+.start-date-input,
+.end-Input {
+  color: black;
+  width: 50%;
+  height: 5vh;
+}
+
+.comment-list {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-left: 2%;
+}
+
+form > button {
+  width: 30%;
+  border: 1px solid white;
+  height: 5vh;
+  margin-bottom: 1rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card-color:hover {
+  background: linear-gradient(-45deg, #35f80410, #001aff10, #fc049515, #cd04ff15);
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+}
+
+.custom-h {
+  height: 5vh;
+}

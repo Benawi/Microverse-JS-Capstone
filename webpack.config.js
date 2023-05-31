@@ -2,42 +2,38 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  mode: 'development',
+  entry: {
+    index: path.resolve(__dirname, './src/index.js'),
+  },
   devServer: {
     static: './dist',
-    port: 9000,
+    port: 3003,
+    open: true,
+    compress: true,
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // Please change the template path!
-      template: './src/index.html',
+      template: path.resolve(__dirname, './src/index.html'),
     }),
   ],
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    path: path.resolve(__dirname, './dist'),
   },
-  mode: 'production',
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader',
-          'css-loader'],
+        use: ['style-loader', 'css-loader'],
       },
       {
+
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
+        use: ['file-loader'],
       },
     ],
-  },
-  optimization: {
-    runtimeChunk: 'single',
-  },
-  performance: {
-    hints: false,
-    maxEntrypointSize: 512000,
-    maxAssetSize: 512000,
   },
 };
