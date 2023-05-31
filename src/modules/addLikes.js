@@ -1,5 +1,4 @@
-const url =
-  'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
+const url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
 export const updateLikes = async (key, likes) => {
   const res = await fetch(url);
   const data = await res.json();
