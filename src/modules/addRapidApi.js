@@ -9,7 +9,6 @@ const getShazamTracks = async () => {
 
     renderCards(songs);
     commentsPopUp();
-
   } else {
     try {
       const response = await fetch(url, options);
@@ -20,7 +19,6 @@ const getShazamTracks = async () => {
 
         renderCards(songs);
         commentsPopUp();
-   
       } else {
         throw new Error('Failed to get Shazam tracks');
       }

@@ -25,7 +25,7 @@ const renderCards = (array) => {
   <div class="flex flex-col gap-1 justify-between">
   <div class="flex justify-between p-1 items-center">
   <span id="like-${data.key}" class="text-sm">no likes</span>
-  <img class="h-[20px] color-white" src="./assets/adore.svg" alt="" />
+  <img class="h-[20px] color-white" src="./assets/adore.svg" alt="Like" />
   </div>
   <button class="btn flex justify-between bg-[#ffffff10] p-1 rounded items-center cursor-pointer hover:bg-[#ffffff20]">
   <span class="text-sm">Comments</span>

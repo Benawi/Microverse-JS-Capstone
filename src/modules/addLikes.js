@@ -1,5 +1,5 @@
-const url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
 export const updateLikes = async (key, likes) => {
+  const url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
   const res = await fetch(url);
   const data = await res.json();
 
@@ -12,6 +12,7 @@ export const updateLikes = async (key, likes) => {
 };
 
 export const addLike = async (key, likes) => {
+  const url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
   await fetch(url, {
     method: 'POST',
     body: JSON.stringify({
@@ -26,6 +27,7 @@ export const addLike = async (key, likes) => {
 };
 
 export const fetchLikes = async () => {
+  const url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/';
   const res = await fetch(url);
   const data = await res.json();
   return data;
