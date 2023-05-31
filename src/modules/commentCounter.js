@@ -5,3 +5,4 @@ const commentsCounter = (post) => {
     const comments = post.comments.filter((comment) => comment.text && comment.text.trim() !== '');
     return comments.length;
   };
+  module.exports = commentsCounter;
