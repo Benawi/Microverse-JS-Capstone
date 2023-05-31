@@ -4,11 +4,14 @@
   "description": "Js Group Capstone project",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
     "test": "jest",
-    "watch": "webpack --watch",
-    "start": "webpack serve --open",
-    "dev": "webpack-dev-server --mode development",
-    "build": "webpack"
+    "watch": "jest --watch"
+
+  },
+  "directories": {
+    "test": "tests"
   },
   "keywords": [],
   "author": "",
