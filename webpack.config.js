@@ -8,10 +8,10 @@ module.exports = {
   },
   devServer: {
     static: './dist',
+    port: 3003,
     open: true,
     compress: true,
     historyApiFallback: true,
-    port: 9002,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -20,20 +20,19 @@ module.exports = {
   ],
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    path: path.resolve(__dirname, './dist'),
   },
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader',
-          'css-loader'],
+        use: ['style-loader', 'css-loader'],
       },
       {
+
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-
+        use: ['file-loader'],
       },
     ],
   },
