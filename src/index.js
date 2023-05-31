@@ -1,5 +1,5 @@
 import './style.css';
 
-import getShazamTracks from './modules/api.js';
+import getShazamTracks from './modules/addRapidApi.js';
 
 getShazamTracks();
