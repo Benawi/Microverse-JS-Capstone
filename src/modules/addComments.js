@@ -21,4 +21,29 @@ const getComments = async (itemId) => {
       }),
     });
   };
+
+
+  
+const commentsPopUp = () => {
+    const likeBtns = Array.from(document.getElementsByClassName('btn'));
+    const pop = document.querySelector('.pop');
+    pop.setAttribute('style', 'display: none;');
+  
+    const createPopup = async (data) => {
+      const popup = document.createElement('div');
+      popup.classList.add('popup');
+  
+      const closeBtn = document.createElement('div');
+      closeBtn.classList.add('close-btn', 'text-4xl', 'pb-2', 'cursor-pointer', 'text-right');
+      closeBtn.innerHTML = '&times;';
+      closeBtn.addEventListener('click', () => {
+        popup.remove();
+        pop.setAttribute('style', 'display: none;');
+      });
+  
+    }
+  };
+  
+  export default commentsPopUp;
+  
   
