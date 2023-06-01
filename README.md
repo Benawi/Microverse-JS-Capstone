@@ -70,7 +70,7 @@ The repository also contains files for setting up linters and validators.
 - [x] Counters We have counters in all the interfaces that show:
    - The number of items (home).
    - The number of comments (comments popup).
-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](https://benawi.github.io/Microverse-JS-Capstone/dist/)
 
