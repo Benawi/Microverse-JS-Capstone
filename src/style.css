@@ -171,6 +171,16 @@ form > button {
   margin-bottom: 1rem;
 }
 
+.fa {
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: blue;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
