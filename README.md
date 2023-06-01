@@ -43,8 +43,8 @@ The repository also contains files for setting up linters and validators.
        <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">JS</a></li>
   </ul>
 
-### Key Features <a name="key-features"></a>
-## Javascript Capstone Project: [Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/js_capstone.md)
+## 🔑 Key Features <a name="key-features"></a>
+### Javascript Capstone Project: [Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/js_capstone.md)
 
 ### Features Added:
 - [x] Interfaces:
@@ -71,8 +71,8 @@ The repository also contains files for setting up linters and validators.
    - The number of items (home).
    - The number of comments (comments popup).
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-### 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://benawi.github.io/Microverse-JS-Capstone/dist/)
+## 🚀 Live Demo 
+[Live Demo Link ](https://benawi.github.io/Microverse-JS-Capstone/dist/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### 💻Getting Started <a name="getting-started"></a>
 
