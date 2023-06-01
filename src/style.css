@@ -91,8 +91,8 @@ p {
 .popup {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 1.25em 1.25em 1.25em;
-  width: 70%;
-  max-height: 95%;
+  width: 60%;
+  max-height: 75%;
   overflow-y: auto;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -179,6 +179,16 @@ form > button {
 
 .fa:hover {
   color: blue;
+}
+
+.fac {
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fac:hover {
+  color: red;
 }
 
 @keyframes gradient {
