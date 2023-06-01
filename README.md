@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -43,14 +44,17 @@ The repository also contains files for setting up linters and validators.
   </ul>
 
 ### Key Features <a name="key-features"></a>
-
 ## Javascript Capstone Project: [Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/js_capstone.md)
 
 ### Features Added:
 
 - Set up a new project with webpack
 - <p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://benawi.github.io/Microverse-JS-Capstone/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
