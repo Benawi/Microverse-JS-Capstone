@@ -188,7 +188,7 @@ form > button {
 }
 
 .fac:hover {
-  color: red;
+  color: black;
 }
 
 @keyframes gradient {

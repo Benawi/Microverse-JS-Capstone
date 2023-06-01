@@ -193,7 +193,7 @@ You can redeploy this project by adding new lines of code to source files.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--
+- User Based Authentication for commet and like
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,13 +205,13 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give me ⭐️ If you like this project!
+Give us ⭐️ If you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse program for providing me this great chance.
+- We would like to thank Microverse program for providing us this great chance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
