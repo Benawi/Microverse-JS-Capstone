@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Js capstone</title>
+  </head>
+  <body class="bg-[#0e1217] text-white">
+    <!-- Header -->
+    <header class="border-b-2 border-[#a8b3cf33;] items-center">
+      <div class="container mx-auto max-w-screen-xl">
+        <div class="flex justify-between px-6 h-[60px] items-center">
+          <div class="page-logo-container d-flex align-items-center justify-content-around me-5">
+          <p class="page-logo">BENA Music </p>
+          </div>
+          <nav>
+            <ul class="flex gap-4">
+              <li class="hover:text-[#1ED760] cursor-pointer" id="charts">
+                TOP CHARTS
+              </li>
+              <li class="hover:text-[#1ED760] cursor-pointer">ALBUMS</li>
+              <li class="hover:text-[#1ED760] cursor-pointer">ARTISTS</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="my-[40px]">
+      <div class="container mx-auto max-w-screen-xl">
+        <!-- Cards -->
+        <div
+          id="cards"
+          class="grid gap-4 px-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        >
+          <h2 class="text-4xl text-center">Cards are Loading ...</h2>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container mx-auto my-8">
+        <p class="text-center">
+          © 2023 | Created by :
+          <a href="https://github.com/Benawi" class="text-[#1ED760]"
+            >Habtamu Alemayehu</a
+          >, and
+          <a href="https://github.com/Megagig" class="text-[#1ED760]"
+            >Anthony Obi</a
+          >
+        </p>
+      </div>
+    </footer>
+    <div class="pop"></div>
+   
+
+    <script src="./index.js"></script>
+  </body>
+</html>
