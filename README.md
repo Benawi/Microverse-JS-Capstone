@@ -6,7 +6,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
+    - [Live Demo](#live-demo)
+    - [Walkthrough](#Walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -77,8 +78,12 @@ Use ES6 modules to write modular JavaScript.
    
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
-## 🚀 Live Demo 
+## 🚀 Live Demo <a name="live-demo"></a> 
 [Live Demo Link ](https://benawi.github.io/Microverse-JS-Capstone/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 👁 Walkthrough <a name="Walkthrough"></a>
+[Live vedio](https://drive.google.com/file/d/1JdyRRXO2_W1Fq5bu_4MYirS2-VoofdFz/view?usp=sharing) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
