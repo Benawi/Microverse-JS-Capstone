@@ -47,8 +47,33 @@ The repository also contains files for setting up linters and validators.
 ## Javascript Capstone Project: [Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/js_capstone.md)
 
 ### Features Added:
+-[x] Interfaces:
+   - The home page.
+   - The comments popup. 
 
-- Set up a new project with webpack
+-[x] The layout of the wireframes provided is followed and the layouts are personalize the rest of the design including colors, typographies, spacings, etc.
+  - Home page
+     - When the page loads, the webapp retrieves data from: [API](https://rapidapi.com/hub) and shows the list of items on screen is used.
+     - The [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) to show the item likes used.
+     - The Page  make only 2 requests:
+          - One to the base [API](https://rapidapi.com/hub) .
+          - And one to the [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/).
+     - When the user clicks on the Like button of an item, the interaction is recorded in the [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) and the screen is updated.
+    - When the user clicks on the "Comments" button, the Comments popup appears from this [API Storega](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/comments).
+    
+    - Home page header and navigation similar to the given [mockup](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/images/Home.png).
+    - Home page footer similar to the given [mockup](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/images/Home.png).
+- Comments popup
+   - When the popup loads, the webapp retrieves data from:
+   - The selected API and shows details about the selected item.
+   - The Involvement API to show the item comments.
+   - When the user clicks on the "Comment" button, the data is recorded in the Involvement API and the screen is updated.
+
+   - When the popup loads, the webapp retrieves data from: The selected API and shows details about the selected item.
+
+- Counters We have counters in all the interfaces that show:
+ - The number of items (home).
+ - The number of comments (comments popup).
 - <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### 🚀 Live Demo <a name="live-demo"></a>
 
