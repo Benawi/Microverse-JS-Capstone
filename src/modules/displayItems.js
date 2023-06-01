@@ -29,7 +29,7 @@ const renderCards = (array) => {
   </div>
   <button class="btn flex justify-between bg-[#ffffff10] p-1 rounded items-center cursor-pointer hover:bg-[#ffffff20]">
   <span class="text-sm">Comments</span>
-  <img class="h-[20px] color-white" src="./assets/comment.svg" alt="comment" />
+  <img class="h-[20px] color-white fac fa fa-comment fa_custom" src="" alt="" />
   </button>
   <button class="btn-2 flex justify-between bg-[#ffffff10] p-1 rounded items-center cursor-pointer hover:bg-[#ffffff20]">
   
