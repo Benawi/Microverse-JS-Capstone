@@ -44,7 +44,7 @@ The repository also contains files for setting up linters and validators.
 
 ### Key Features <a name="key-features"></a>
 
-## Javascript Capstone: [Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/sneak_peek.md)
+## Javascript Capstone Project: [Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/js_capstone.md)
 
 ### Features Added:
 
