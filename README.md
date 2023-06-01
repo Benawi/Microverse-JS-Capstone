@@ -59,7 +59,6 @@ The repository also contains files for setting up linters and validators.
           - And one to the [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/).
      - When the user clicks on the Like button of an item, the interaction is recorded in the [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) and the screen is updated.
     - When the user clicks on the "Comments" button, the Comments popup appears from this [API Storega](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/comments).
-    
     - Home page header and navigation similar to the given [mockup](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/images/Home.png).
     - Home page footer similar to the given [mockup](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/images/Home.png).
 - [x] Comments popup
@@ -67,9 +66,7 @@ The repository also contains files for setting up linters and validators.
    - The selected API and shows details about the selected item.
    - The Involvement API to show the item comments.
    - When the user clicks on the "Comment" button, the data is recorded in the Involvement API and the screen is updated.
-
    - When the popup loads, the webapp retrieves data from: The selected API and shows details about the selected item.
-
 - [x] Counters We have counters in all the interfaces that show:
    - The number of items (home).
    - The number of comments (comments popup).
