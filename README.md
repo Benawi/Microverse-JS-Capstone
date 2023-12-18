@@ -55,7 +55,7 @@ Use ES6 modules to write modular JavaScript.
 - [x] Interfaces:
    - The home page.
    - The comments popup. 
-- [x] The layout of the wireframes provided is followed and the layouts are personalized the rest of the design including colors, typographies, spacings, etc.
+- [x] The layout of the wireframes provided is followed and the layouts are personalized for the rest of the design including colors, typographies, spacings, etc.
   - Home page
      - When the page loads, the web app retrieves data from [API](https://rapidapi.com/hub) and shows the list of items on the screen is used.
      - The [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) to show the item likes used.
