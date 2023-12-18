@@ -68,7 +68,7 @@ Use ES6 modules to write modular JavaScript.
     - Home page footer similar to the given [mockup](https://github.com/microverseinc/curriculum-javascript/blob/main/group-capstone/images/Home.png).
 - [x] Comments popup
    - When the popup loads, the webapp retrieves data from:
-   - The selected API and shows details about the selected item.
+   - The selected API shows details about the selected item.
    - The Involvement API to show the item comments.
    - When the user clicks on the "Comment" button, the data is recorded in the Involvement API and the screen is updated.
    - When the popup loads, the webapp retrieves data from: The selected API and shows details about the selected item.
