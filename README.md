@@ -71,7 +71,7 @@ Use ES6 modules to write modular JavaScript.
    - The selected API shows details about the selected item.
    - The Involvement API to show the item comments.
    - When the user clicks on the "Comment" button, the data is recorded in the Involvement API, and the screen is updated.
-   - When the popup loads, the webapp retrieves data from: The selected API and shows details about the selected item.
+   - When the popup loads, the webapp retrieves data from The selected API and shows details about the selected item.
 - [x] Counters We have counters in all the interfaces that show:
    - The number of items (home).
    - The number of comments (comments popup).
@@ -196,7 +196,7 @@ npm install
 Track HTML linter errors run:
 
 ```
-npx hint .
+npx hint.
 ```
 
 Track CSS linter errors run:
