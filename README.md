@@ -30,7 +30,7 @@ JS Capstone Project - Microverse! project is a repository consisting of the foll
 - HTML file
 - CSS file
 - JS files
-- Html, CSS and JS linters file
+- HTML, CSS, and JS linters file
 - callbacks and promises used.
 - Implementation of External API
 - Learn how to use proper ES6 syntax.
