@@ -57,7 +57,7 @@ Use ES6 modules to write modular JavaScript.
    - The comments popup. 
 - [x] The layout of the wireframes provided is followed and the layouts are personalized for the rest of the design including colors, typographies, spacings, etc.
   - Home page
-     - When the page loads, the web app retrieves data from [API](https://rapidapi.com/hub) and shows the list of items on the screen is used.
+     - When the page loads, the web app retrieves data from [API](https://rapidapi.com/hub) and shows the list of items on the screen used.
      - The [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) to show the item likes used.
      - The Page  make only 2 requests:
           - One to the base [API](https://rapidapi.com/hub).
