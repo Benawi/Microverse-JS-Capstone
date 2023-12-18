@@ -59,7 +59,7 @@ Use ES6 modules to write modular JavaScript.
   - Home page
      - When the page loads, the web app retrieves data from [API](https://rapidapi.com/hub) and shows the list of items on the screen used.
      - The [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) to show the item likes used.
-     - The Page  make only 2 requests:
+     - The Page  makes only 2 requests:
           - One to the base [API](https://rapidapi.com/hub).
           - And one to the [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/).
      - When the user clicks on the Like button of an item, the interaction is recorded in the [Involvement API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/6b6MwShRJVij7XaDVDix/likes/) and the screen is updated.
